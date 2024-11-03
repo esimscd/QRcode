@@ -1,15 +1,16 @@
-body {
+* {
     text-align:center;
-    background-color: #D5e1ef;
     font-family: 'Outfit';
 }
 
-.main {
+body {
+    background-color: #D5e1ef;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 .card {
 width: 320px;
@@ -17,13 +18,14 @@ height: 499px;
 border-radius: 20px;
 background-color: white;
 box-shadow: 0px 0px 30px rgb(198, 200, 201);
+padding:16px;
+box-sizing: border-box;
 }
 
 img {
 width: 288px;
 height: 288px;
 border-radius: 10px;
-padding: 16px 16px 0px 16px;
 
 }
 
